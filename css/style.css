@@ -1,0 +1,505 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans";
+}
+
+html,body{
+    height: 100%;
+}
+
+.welcome{
+    width: 100%;
+    height: 590px;;
+    background-image: url("../ymagens/capa.png");
+    background-size: 100% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+
+nav{
+    float: right;
+    margin: 45px 90px 0 0;
+    word-spacing: 28px;
+    font-weight: 300;
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.logo1{
+    float: left;
+    width: 130px;
+    height: 30px;
+    margin: 45px 0 0 90px;
+    background-image: url("../ymagens/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.letreyro{
+    word-break: break-all;
+    width: 55%;
+    height: 250px;
+    margin: 156px 0 0 30%;
+    float:right;
+}
+
+.letreyro h2{
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.letreyro p{
+    color: antiquewhite;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 300px
+}
+
+.anuncyo1{
+    width: 100%;
+    height: 380px;
+    background-color: #472663;
+    max-height: 450px;
+}
+
+
+.anuncyo1 img{
+    margin-right: 10%;
+    float: right;
+    width: 40%;
+    height: calc(100% + 60px);
+    top:-60px;
+    position: relative;
+}
+
+.texto1{
+    display: block;
+    width:35%;
+    float: left;
+    margin-left: 15%;
+    height: 100%;
+    background-color: 472663;
+    color: antiquewhite;
+    font-weight: 300;
+}
+
+.texto1 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.texto1 ul{
+    margin-top: 10px;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.texto1 input[type=submit]{
+    width: 175px;
+    height: 35px;
+    background-color: #ff703e;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+.anuncyo2{
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    background-color: whitesmoke;  
+    color: #472663;
+}
+
+.anuncyo2 h2{
+    padding-top: 100px;
+    word-spacing: 3px;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+
+.anuncyo2 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.anuncyo3{
+    width: 100%;
+    height: 280px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.nosso-tyme{
+    width: 50%;
+    height: 100%;
+    background-color: #835fa8;
+    float: left;
+    text-align: left;
+}
+
+.nosso-tyme h3{
+    font-weight: 300;
+    padding-top: 82px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    margin: 0 14% 0 10%;
+}
+
+.nosso-tyme p{
+    font-size:18px; 
+    margin: 0 14% 0 10%;
+}
+
+.cryador{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #835fa8;
+    border-left: 2px solid whitesmoke;
+    text-align: left;
+}
+
+.cryador h3{
+    font-weight: 300;
+    padding-top: 75px;
+    font-size: 30px;
+    margin: 0 14% 0 10%;
+}
+
+.cryador p{
+    font-size:18px; 
+    margin: 0 14% 0 10%;
+}
+
+.cryador img{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;    
+}
+
+.cryador span{
+    margin: 0 14% 0 10%;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contato-maps{
+    width: 100%;
+    height: 580px;
+    background-color: #472663;
+}
+
+.contato{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+.contato h3{
+    margin: 0 14% 0 10%;
+    padding-top: 75px;    
+    color: whitesmoke;
+    font-weight: 300;    
+}
+
+.contato p{
+    font-size:14px; 
+    margin: 0 14% 0 10%;
+    color: whitesmoke; 
+    font-weight: 300;   
+}
+
+.form input{
+    margin: 0 14% 0 10%;
+    width: 70%;
+    height: 50px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form input[name="mensagem"]{
+    height: 150px;
+}
+
+.form input[type="submit"]{
+    margin-top: 16px;
+    width: 28%;
+    background-color: #ff703e;
+    color: whitesmoke;
+    border-radius: 20px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.maps{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.maps h3{    
+    margin: 0 14% 0 10%;
+    padding-top: 75px;    
+    color: whitesmoke;
+    font-weight: 300;    
+    }
+
+    .map-wrapper{
+        margin: 0 14% 0 10%;
+        width: 70%;
+        height: 385px;
+        background-color: whitesmoke;
+        border: 5px solid gray;
+    }
+
+footer{
+    width: 100%;
+    height: 48px;
+    background-color: #1a2124;
+    text-align: center;
+}
+
+footer span{
+    color: whitesmoke;
+    font-size: 10px;
+    margin: 0 10px 0 10px;
+    font-weight: 300;    
+}
+
+
+/*----------responsivo-------------------*/
+
+@media screen and (max-width:750px){
+
+    .letreyro{
+        text-align: center;
+        width: 100%;
+        height: 220px;
+        margin: 95px 0 0 0%;
+        float: left;
+        background-color: whitesmoke;
+        opacity: 0.7;
+        border:2px solid grey;    
+    }    
+
+    .welcome{
+        height: 380px;       
+    }
+
+    header{
+        width: 100%;
+        height: 60px;
+        display: block;
+        background-color: #ff703e;
+        border-bottom:1px solid gray;
+        position:fixed;
+        z-index: 1;
+    }
+
+    nav{
+        margin: 20px 20px 0 0;
+        word-spacing: 5px;
+        font-weight: 300;
+    }
+            
+    .logo1{
+        float: left;
+        width: 130px;
+        height: 30px;
+        margin: 20px 0 0 20px;
+}
+    .anuncyo1 img{
+        margin-right: 5%;
+        float: right;
+        width: 45%;
+        height: 85%;
+        top:57px;
+    }
+
+    .texto1{
+        width:40%;
+        margin-left: 10%;        
+    }
+    
+    .letreyro h2{
+        color: #472663;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 55px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    .letreyro p{
+        color: #472663;
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 300px
+    }
+
+    .anuncyo2{
+        height: 300px;        
+    }
+    
+    .anuncyo2 h2{
+        padding-top: 30px;       
+    }
+
+    .anuncyo3{
+        position: relative;
+        top:-40px;
+        width: 100%;
+        height: 300px;        
+    }
+
+    .cryador img{
+        width: 0;
+        height: 0;            
+    }
+
+    .nosso-tyme h3{        
+        padding-top: 75px;             
+    }
+
+    
+    .contato-maps{
+        position: relative;
+        top: -40px;
+    }
+
+    .map-wrapper{        
+        height: 320px;        
+    }
+
+    footer{        
+            height: 58px;
+            top: -40px;
+            position: relative;       
+    }
+}
+/*------------------------------------*/
+
+@media screen and (max-width:602px){
+
+    .welcome{
+        top:0px;
+    }
+    
+
+    .anuncyo1{
+        height: 370px;
+        top:-40px;
+        position: relative;
+    }
+    
+    
+    .anuncyo1 img{        
+        width: 0;
+        height: 0;        
+    }
+    
+    .texto1{
+        position: relative;
+        top: 30px;
+        width:80%;
+        float: none;
+        margin:0 10% 0 10%;
+    }
+    
+    .texto1 h3{       
+        margin-bottom: 14px;
+    }
+
+    .texto1 input[type=submit]{
+        width: 44%;
+        margin-left: 30%;        
+    }
+
+    .anuncyo2{
+        position: relative;
+        top:-40px;
+    }
+
+    .anuncyo3{
+        width: 100%;
+        height: 440px;        
+    }
+    
+    .nosso-tyme{
+        width: 100%;
+        height: 50%;
+        background-color: #835fa8;
+        float: none;
+        text-align: center;
+    }
+
+    .cryador h3{
+        padding-top: 40px;       
+    }
+
+    .nosso-tyme h3{
+        padding-top: 40px;        
+    }
+
+    .cryador{
+        width: 100%;
+        height: 50%;
+        float: none;
+        background-color: #835fa8;
+        border-left:none;
+        border-top: 2px solid whitesmoke;
+        text-align: center;
+    }
+
+    .contato-maps{
+        width: 100%;
+        height: 530px;
+        background-color: #472663;
+    }
+
+    .contato{
+        width: 100%;
+        height: 50%;
+        float: none;
+        text-align: center;        
+    }
+
+    .maps{
+        width: 0%;
+        height: 0%;
+    }
+        
+        .map-wrapper{
+            margin: 0;
+            width: 0%;
+            height:0;   
+            border:none;        
+        }
+
+        .contato h3{
+            padding-top: 40px;              
+        }
+}
